@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PB Conference - Brian Yin</title>
+    <link rel="shortcut icon" type="image/png" href="img/home/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loader"><div class="loader-bar"></div></div>
+    <div class="page-transition"></div>
+
+    <nav class="navbar">
+        <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">Brian P.Y. Yin</a>
+        <div class="nav-right">
+            <div class="project-nav">
+            <a href="pb_mobile.html">&larr; Previous</a>
+            <a href="pb_platform.html">Next &rarr;</a>
+            <a href="work.html">All Work</a>
+        </div>
+        </div>
+    <button class="nav-hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="project-hero">
+        <div class="project-hero-text reveal-left">
+            <h2>Power your conference</h2>
+            <h1>PitchBook Conference</h1>
+            <p class="desc">I led the design of the PitchBook conference app, a cross-platform application, used by top organizations in the industry.</p>
+        </div>
+        <div class="project-hero-img reveal-right">
+            <img src="img/pb-conference/conferenceHero.png" alt="Conference App">
+        </div>
+    </div>
+
+    <!-- About -->
+    <section class="section section-gray">
+        <h2 class="section-title reveal">About the Project</h2>
+        <p class="section-subtitle reveal" style="font-weight:300;font-size:1.1rem">PitchBook partners with top industry organizations around the world and provides custom mobile apps and web platforms for their conferences, giving attendees special access to PitchBook's database as well as a suite of conference features.</p>
+    </section>
+
+    <!-- Challenges -->
+    <section class="section">
+        <h2 class="section-title reveal">Challenges</h2>
+        <div class="challenges-grid stagger">
+            <div class="challenge-card reveal">
+                <div class="label">Showcase Data</div>
+                <p>PitchBook partners with more than 40 conferences and gives access to more than 5000 people a year.</p>
+                <p class="highlight" style="margin-top:0.75rem">The Conference app is a channel for PitchBook to showcase the breadth of the data and expose the platform to more potential clients.</p>
+            </div>
+            <div class="challenge-card reveal">
+                <div class="label">Cross-platform</div>
+                <p>Since the app could be used on both web and mobile, we worked hard to ensure a coherent experience.</p>
+                <p class="highlight" style="margin-top:0.75rem">We identified key work-flows for each platform and took a mobile first approach.</p>
+            </div>
+            <div class="challenge-card reveal">
+                <div class="label">Constraints</div>
+                <p>One of our biggest challenges is to design a framework that would work with different types of conferences.</p>
+                <p class="highlight" style="margin-top:0.75rem">We studied multiple use cases across many conferences and to found commonalities to design for.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Wireframes -->
+    <section class="section">
+        <h2 class="section-title reveal">Wireframes &amp; Iterations</h2>
+        <p class="section-subtitle reveal">A few wireframes for the conference App</p>
+
+        <div style="max-width:1200px;margin:0 auto 3rem">
+            <div class="wf-grid reveal">
+                <div>
+                    <div class="label blue" style="font-size:1.25rem;margin-bottom:1rem">Attendee Profiles</div>
+                    <p style="font-size:0.9rem;line-height:1.7;color:#333">The Conference app is built on top of the regular PitchBook app, so we needed to find a way to differentiate between a regular PitchBook profile and a conference profile for attendees.</p>
+                </div>
+                <img src="img/pb-conference/cf_profile_1.png" alt="Profile v1">
+                <img src="img/pb-conference/cf_profile_2.png" alt="Profile v2">
+                <img src="img/pb-conference/cf_profile_3.png" alt="Profile v3">
+            </div>
+        </div>
+        <div style="max-width:1200px;margin:0 auto">
+            <div class="wf-grid reveal">
+                <img src="img/pb-conference/cf_home_1.png" alt="Home v1">
+                <img src="img/pb-conference/cf_home_2.png" alt="Home v2">
+                <img src="img/pb-conference/cf_home_3.png" alt="Home v3">
+                <div>
+                    <div class="label blue" style="font-size:1.25rem;margin-bottom:1rem">Conference Home</div>
+                    <p style="font-size:0.9rem;line-height:1.7;color:#333">We wanted a home page that can provide value right when users log in, so we explored different types of information to show on the home page.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Features -->
+    <section class="section">
+        <div class="feature-row">
+            <div class="feature-text reveal-left">
+                <div class="label blue">In-App Messaging</div>
+                <p>Much of the success in the PE &amp; VC industry comes from leveraging people's personal networks. Attending conferences is an opportunity for professionals to meet people and extend their personal networks.</p>
+                <p>The messaging feature is designed to facilitate this interaction, allowing users to message any attendee or speaker directly within the app.</p>
+            </div>
+            <div class="feature-img reveal-right"><img src="img/pb-conference/messagingImage.png" alt="Messaging"></div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="section">
+        <div class="feature-row reverse">
+            <div class="feature-text reveal-right">
+                <div class="label blue">Scheduling</div>
+                <p>We found out that majority of the users log into the web platform days prior to the conference to set up their schedules. They send out many meeting invitations beforehand and use the mobile app as a reference when they arrive at the conference.</p>
+                <p>As a result, we optimized the web version for the scheduling the work-flow, such as proposing a new time, and optimized the mobile version for more browsing related tasks.</p>
+            </div>
+            <div class="feature-img reveal-left"><img src="img/pb-conference/schedulingImage.png" alt="Scheduling"></div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="section">
+        <div class="feature-row">
+            <div class="feature-text reveal-left">
+                <div class="label blue">Agenda</div>
+                <p>Like the scheduling feature, many users set up their schedule before the conference and use the mobile app as a reference when they arrive at the conference.</p>
+                <p>To help improve this work-flow, we added search and filters in the web version, so they can easily filter through the events on the agenda to add them to their schedule.</p>
+            </div>
+            <div class="feature-img reveal-right"><img src="img/pb-conference/agendaImage.png" alt="Agenda"></div>
+        </div>
+    </section>
+
+    <!-- Result -->
+    <section class="section section-gray">
+        <h2 class="section-title reveal">Result</h2>
+        <p class="section-subtitle reveal" style="font-weight:300;font-size:1.1rem">The conference app that is used by more than 40 conferences a year. It generates ~10% of our total leads and is also one of our main channels of marketing.</p>
+    </section>
+
+    <!-- Prototype -->
+    <div class="prototype-banner reveal">Click Around!</div>
+    <iframe class="prototype-iframe" src="img/pb-conference/conference-app-invision/index.html"></iframe>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <span>&copy; 2026 Brian Yin</span>
+            <div class="footer-social">
+                <a href="mailto:brianyin0121@gmail.com" target="_blank">email</a>
+                <a href="https://www.linkedin.com/in/brianpyyin" target="_blank">linkedin</a>
+                <a href="https://twitter.com/brianpyyin" target="_blank">twitter</a>
+                <a href="https://dribbble.com/brianpyyin" target="_blank">dribbble</a>
+                <a href="https://medium.com/@brianyin" target="_blank">medium</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
